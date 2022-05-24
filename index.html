@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex" id="navbar">
+        <p id="plan"></p>
+    </div>
+
+    <button><a href="dashboard.html">Dashboard</a></button>
+
+    <h1>Add Student's Data</h1>
+    <form id="studentsData" onsubmit="storeData(event)">
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="course" placeholder="Course">
+        <input type="text" id="image" placeholder="Image_url">
+        <input type="text" id="unit" placeholder="Unit">
+        <input type="number" id="batch" placeholder="Ft-web batch no.">
+        <input type="submit" />
+    </form>
+</body>
+</html>
+
+<script src="./javascript/index.js"></script>
